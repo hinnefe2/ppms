@@ -12,8 +12,8 @@ except:
     if clr.FindAssembly('QDInstrument') is None:
         print('Could not find QDInstrument.dll')
     else:
-        print 'Found QDInstrument.dll at {}'.format(clr.FindAssembly('QDInstrument')
-        print 'Try right-clicking the .dll, selecting 'Properties', and then clicking "Unblock"'
+        print('Found QDInstrument.dll at {}'.format(clr.FindAssembly('QDInstrument')))
+        print('Try right-clicking the .dll, selecting "Properties", and then clicking "Unblock"')
 
 # import the C# classes for interfacing with the PPMS
 from QuantumDesign.QDInstrument import *
